@@ -1,0 +1,31 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: { flex: 1, backgroundColor: '#f9f9f9', padding: 15 },
+  centerContainer: { flex: 1, justifyContent: 'center', alignItems: 'center', padding: 20 },
+  drawerHeader: { padding: 20, alignItems: 'center', borderBottomWidth: 1, borderBottomColor: '#eee' },
+  profileEmail: { marginTop: 10, fontWeight: 'bold', color: '#333' },
+  logoutButton: { flexDirection: 'row', alignItems: 'center', padding: 20, marginTop: 10, borderTopWidth: 1, borderTopColor: '#eee' },
+  logoutText: { color: 'red', marginLeft: 15, fontWeight: 'bold' },
+  input: { width: '100%', height: 50, backgroundColor: '#fff', borderRadius: 8, paddingHorizontal: 15, marginBottom: 15, borderWidth: 1, borderColor: '#ddd' },
+  primaryButton: { width: '100%', height: 50, backgroundColor: '#007AFF', borderRadius: 8, justifyContent: 'center', alignItems: 'center', marginTop: 10 },
+  dangerButton: { width: '100%', height: 50, backgroundColor: '#FF3B30', borderRadius: 8, justifyContent: 'center', alignItems: 'center', marginTop: 15 },
+  buttonText: { color: '#fff', fontWeight: 'bold' },
+  bookCard: { flexDirection: 'row', backgroundColor: '#fff', padding: 10, borderRadius: 10, marginBottom: 10, alignItems: 'center', elevation: 2 },
+  thumbnail: { width: 55, height: 80, borderRadius: 4 },
+  bookInfo: { marginLeft: 15, flex: 1 },
+  bookTitle: { fontSize: 16, fontWeight: 'bold', color: '#333' },
+  bookAuthorText: { fontSize: 14, color: '#666' },
+  lendCard: { flexDirection: 'row', backgroundColor: '#fff', padding: 15, borderRadius: 10, marginBottom: 10, elevation: 2, alignItems: 'center' },
+  dueText: { color: '#FF9500', fontSize: 13, fontWeight: '700', marginTop: 5 },
+  preview: { width: 100, height: 150, alignSelf: 'center', marginVertical: 15, borderRadius: 5 },
+  largeCover: { width: '100%', height: 300, resizeMode: 'contain', marginBottom: 15 },
+  label: { fontWeight: 'bold', marginBottom: 5, color: '#555' },
+  mainTitle: { fontSize: 28, fontWeight: 'bold', marginBottom: 30, color: '#007AFF' },
+  detailTitle: { fontSize: 22, fontWeight: 'bold', textAlign: 'center' },
+  detailAuthor: { fontSize: 18, color: '#666', textAlign: 'center', marginBottom: 20 },
+  cloudBox: { backgroundColor: '#e1f5fe', padding: 15, borderRadius: 8, marginVertical: 15 },
+  cloudLabel: { fontWeight: 'bold', color: '#0288d1', marginBottom: 5, fontSize: 12 },
+  synopsisText: { fontSize: 14, color: '#444', lineHeight: 20, fontStyle: 'italic', marginTop: 5},
+  cloudText: { fontSize: 14, color: '#333', fontStyle: 'italic' }
+});
